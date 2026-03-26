@@ -81,8 +81,8 @@ def send_with_buttons(message):
     # ─── Настрой свои кнопки здесь ───────────────────────────────────────────
     markup = InlineKeyboardMarkup()
     markup.row(
-        InlineKeyboardButton("📢 Прямой эфир", url="https://t.me/ссылка1"),
-        InlineKeyboardButton("🔵 Наш MAX",     url="https://t.me/ссылка2")
+        InlineKeyboardButton("🛍️ Перейти в магазин в тг", url="https://t.me/poker_online_shop_bot?start=shop"),
+        InlineKeyboardButton("🎮 Играть", url="https://yandex.ru/games/app/442398")
     )
     # ─────────────────────────────────────────────────────────────────────────
 
